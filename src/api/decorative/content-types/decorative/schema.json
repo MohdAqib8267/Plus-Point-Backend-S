@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "decoratives",
+  "info": {
+    "singularName": "decorative",
+    "pluralName": "decoratives",
+    "displayName": "Decoratives",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Decoratives_Information": {
+      "type": "blocks"
+    },
+    "Decoratives_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "brass_strips": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::brass-strip.brass-strip"
+    },
+    "domes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::dome.dome"
+    },
+    "flat_domes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::flat-dome.flat-dome"
+    },
+    "god_statues": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::god-statue.god-statue"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cupboard_categories",
+  "info": {
+    "singularName": "cupboard-categorie",
+    "pluralName": "cupboard-categories",
+    "displayName": "Cupboard Categories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

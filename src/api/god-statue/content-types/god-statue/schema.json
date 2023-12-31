@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "god_statues",
+  "info": {
+    "singularName": "god-statue",
+    "pluralName": "god-statues",
+    "displayName": "God statues"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "m_latch_body_categories",
+  "info": {
+    "singularName": "m-latch-body-categorie",
+    "pluralName": "m-latch-body-categories",
+    "displayName": "M Latch Body Categories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

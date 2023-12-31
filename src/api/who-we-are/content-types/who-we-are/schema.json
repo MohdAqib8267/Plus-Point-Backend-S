@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "who_we_ares",
+  "info": {
+    "singularName": "who-we-are",
+    "pluralName": "who-we-ares",
+    "displayName": "Expertise",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Card1": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Card2": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Card3": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "the_processes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::the-process.the-process"
+    },
+    "what_we_uses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::what-we-use.what-we-use"
+    },
+    "Banner_Video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

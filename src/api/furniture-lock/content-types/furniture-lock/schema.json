@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "furniture_locks",
+  "info": {
+    "singularName": "furniture-lock",
+    "pluralName": "furniture-locks",
+    "displayName": "Furniture Locks"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Cupboard_Locks_Information": {
+      "type": "blocks"
+    },
+    "Cupboard_Locks_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cupboard_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cupboard-categorie.cupboard-categorie"
+    },
+    "Sliding_Cupboard_Locks_Title": {
+      "type": "string"
+    },
+    "Sliding_Cupboard_Locks_Main_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Sliding_Cupboard_Locks_Main_Image_Title": {
+      "type": "string"
+    },
+    "Sliding_Cupboard_Locks_Side_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Sliding_Cupboard_Locks_Side_Image_Title": {
+      "type": "string"
+    },
+    "Drawer_Infromation": {
+      "type": "blocks"
+    },
+    "Drawer_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "drawer_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::drawer-categorie.drawer-categorie"
+    },
+    "cupboard_pulls": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cupboard-pull.cupboard-pull"
+    },
+    "cupboard_knobs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cupboard-knob.cupboard-knob"
+    }
+  }
+}

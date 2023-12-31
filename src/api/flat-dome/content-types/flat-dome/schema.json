@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flat_domes",
+  "info": {
+    "singularName": "flat-dome",
+    "pluralName": "flat-domes",
+    "displayName": "Flat Domes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mortise_lock_sets",
+  "info": {
+    "singularName": "mortise-lock-set",
+    "pluralName": "mortise-lock-sets",
+    "displayName": "Mortise Lock Set",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "By_Application": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "By_Type": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mortise_product_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mortise-product-categorie.mortise-product-categorie"
+    },
+    "Information": {
+      "type": "blocks"
+    }
+  }
+}

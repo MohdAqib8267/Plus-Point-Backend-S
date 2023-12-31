@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_timelines",
+  "info": {
+    "singularName": "about-timeline",
+    "pluralName": "about-timelines",
+    "displayName": "About Timeline",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Year_Information": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Year": {
+      "type": "biginteger"
+    }
+  }
+}

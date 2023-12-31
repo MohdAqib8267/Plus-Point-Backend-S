@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_door_lock_sets",
+  "info": {
+    "singularName": "main-door-lock-set",
+    "pluralName": "main-door-lock-sets",
+    "displayName": "Main Door Lock Set",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Door_Pull_Lock_Sets_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "main_door_lock_set_designs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::main-door-lock-set-design.main-door-lock-set-design"
+    },
+    "Queen_Lock_set_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "queen_lock_set_designs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::queen-lock-set-design.queen-lock-set-design"
+    },
+    "Door_pull_with_Main_door_lock_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Mortise_Lock_Sets_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Door_Pull_Lock_Sets_Information": {
+      "type": "blocks"
+    },
+    "Queen_Lock_set_Information": {
+      "type": "blocks"
+    },
+    "Door_pull_with_Main_door_lock_Information": {
+      "type": "blocks"
+    },
+    "Mortise_Lock_Sets_Information": {
+      "type": "blocks"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

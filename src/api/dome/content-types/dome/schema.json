@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "domes",
+  "info": {
+    "singularName": "dome",
+    "pluralName": "domes",
+    "displayName": "Domes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

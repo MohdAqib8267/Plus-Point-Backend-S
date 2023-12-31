@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lock_cylindes_categories",
+  "info": {
+    "singularName": "lock-cylindes-categorie",
+    "pluralName": "lock-cylindes-categories",
+    "displayName": "Lock Cylindes Categories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

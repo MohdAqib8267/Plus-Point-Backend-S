@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "door_accessories",
+  "info": {
+    "singularName": "door-accessorie",
+    "pluralName": "door-accessories",
+    "displayName": "Door Accessories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "door_accessories_designs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::door-accessories-design.door-accessories-design"
+    },
+    "door_gate_hooks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::door-gate-hook.door-gate-hook"
+    },
+    "body_datches": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::body-datch.body-datch"
+    },
+    "coat_hooks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::coat-hook.coat-hook"
+    },
+    "door_knockers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::door-knocker.door-knocker"
+    },
+    "door_stoppers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::door-stopper.door-stopper"
+    },
+    "door_chains": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::door-chain.door-chain"
+    }
+  }
+}

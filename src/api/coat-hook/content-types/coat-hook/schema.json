@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coat_hooks",
+  "info": {
+    "singularName": "coat-hook",
+    "pluralName": "coat-hooks",
+    "displayName": "Coat Hooks"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

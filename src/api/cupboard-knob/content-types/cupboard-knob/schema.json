@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cupboard_knobs",
+  "info": {
+    "singularName": "cupboard-knob",
+    "pluralName": "cupboard-knobs",
+    "displayName": "Cupboard Knobs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

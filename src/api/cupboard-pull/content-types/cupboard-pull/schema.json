@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cupboard_pulls",
+  "info": {
+    "singularName": "cupboard-pull",
+    "pluralName": "cupboard-pulls",
+    "displayName": "Cupboard Pulls"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

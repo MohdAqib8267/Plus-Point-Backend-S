@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lock_and_latches_padlocks",
+  "info": {
+    "singularName": "lock-and-latches-padlock",
+    "pluralName": "lock-and-latches-padlocks",
+    "displayName": "Lock & Latches Padlock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

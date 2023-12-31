@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "padlock_categories",
+  "info": {
+    "singularName": "padlock-categorie",
+    "pluralName": "padlock-categories",
+    "displayName": "Padlock Categories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

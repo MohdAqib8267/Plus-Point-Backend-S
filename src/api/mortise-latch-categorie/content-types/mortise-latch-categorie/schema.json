@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mortise_latch_categories",
+  "info": {
+    "singularName": "mortise-latch-categorie",
+    "pluralName": "mortise-latch-categories",
+    "displayName": "Mortise Latch Categories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

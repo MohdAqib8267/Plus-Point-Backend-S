@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drawer_categories",
+  "info": {
+    "singularName": "drawer-categorie",
+    "pluralName": "drawer-categories",
+    "displayName": "Drawer Categories"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

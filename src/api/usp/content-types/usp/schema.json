@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usps",
+  "info": {
+    "singularName": "usp",
+    "pluralName": "usps",
+    "displayName": "USP"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

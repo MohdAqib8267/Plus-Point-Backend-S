@@ -1,0 +1,119 @@
+{
+  "kind": "collectionType",
+  "collectionName": "door_lock_and_latches",
+  "info": {
+    "singularName": "door-lock-and-latche",
+    "pluralName": "door-lock-and-latches",
+    "displayName": "Door Lock & Latches",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Padlock_Title": {
+      "type": "blocks"
+    },
+    "padlock_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::padlock-categorie.padlock-categorie"
+    },
+    "Lock_Cylindes_Title": {
+      "type": "blocks"
+    },
+    "lock_cylindes_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lock-cylindes-categorie.lock-cylindes-categorie"
+    },
+    "Lock_Cylides_Equisite": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Denlock_Title": {
+      "type": "blocks"
+    },
+    "denlock_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::denlock.denlock"
+    },
+    "Mortise_Latch_Title": {
+      "type": "blocks"
+    },
+    "Mortise_Body_Latch_Information": {
+      "type": "blocks"
+    },
+    "Mortise_Body_Latch_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "m_latch_body_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::m-latch-body-categorie.m-latch-body-categorie"
+    },
+    "CY_Lock_Body_Information": {
+      "type": "blocks"
+    },
+    "cy_lock_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cy-lock-categorie.cy-lock-categorie"
+    },
+    "CY_Equisite": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Main_Door_Locks_Informaton": {
+      "type": "blocks"
+    },
+    "Main_Door_Locks_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mortise_latch_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::mortise-latch-categorie.mortise-latch-categorie"
+    },
+    "lock_and_latch_filters": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lock-and-latch-filter.lock-and-latch-filter"
+    }
+  }
+}

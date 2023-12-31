@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brass_strips",
+  "info": {
+    "singularName": "brass-strip",
+    "pluralName": "brass-strips",
+    "displayName": "Brass Strips"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "denlocks",
+  "info": {
+    "singularName": "denlock",
+    "pluralName": "denlocks",
+    "displayName": "Denlock Categories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usp_cards",
+  "info": {
+    "singularName": "usp-card",
+    "pluralName": "usp-cards",
+    "displayName": "USP-Cards"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Card": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
