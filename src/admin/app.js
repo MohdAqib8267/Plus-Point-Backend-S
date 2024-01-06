@@ -11,7 +11,8 @@ const config = {
     tutorials: false,
    
      notifications: { release: false },
-  
+    label:'',
+    destination:'user',
   },
 };
 

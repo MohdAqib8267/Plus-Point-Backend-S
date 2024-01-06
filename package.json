@@ -7,7 +7,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "build:win": "cross-env NODE_ENV=production npm run build"
   },
   "dependencies": {
     "@ckeditor/strapi-plugin-ckeditor": "^0.0.10",
@@ -17,6 +18,7 @@
     "@strapi/plugin-i18n": "4.16.2",
     "@strapi/plugin-users-permissions": "4.16.2",
     "@strapi/strapi": "4.16.2",
+    "cross-env": "^7.0.3",
     "mysql": "2.18.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
